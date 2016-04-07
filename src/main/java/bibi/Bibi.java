@@ -23,7 +23,7 @@ public class Bibi {
 
 	private final static String OUT_FILE = "bibis.txt";
 
-	private final static String PATTERN = "^\\*.*bibi.*$";
+	private final static String PATTERN = "^d.*bibi.*$";
 
 	public static void main(String[] args) throws IOException {
 		BrowserEngine browser = BrowserFactory.getWebKit();
